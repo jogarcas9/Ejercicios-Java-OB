@@ -1,0 +1,17 @@
+package openBootCampPractice;
+
+import java.util.*;
+
+public class Practice {
+    public static void main(String[] args) {
+        String nombre = "Jose Daniel";
+        int edad = 27;
+        double estatura = 1.70d;
+        boolean hombre = true;
+        long peso = 67;
+
+        System.out.println(nombre);
+        System.out.println(edad);
+        System.out.println(estatura);
+        System.out.println(hombre);
+        System.out.println(peso);
