@@ -1,0 +1,19 @@
+package openBootCampPractice;
+
+public class Funciones {
+
+    static double precioTotal(double precio){
+        double iva = precio * 0.21;
+        return  precio + iva;
+    }
+
+
+    public static void main(String[] args) {
+        double precio = 1458;
+        double precioProducto = precioTotal(precio);
+        System.out.println(precioProducto);
+
+
+    }
+
+}
