@@ -1,0 +1,16 @@
+package openBootCampPractice;
+
+import java.util.*;
+
+public class Practice {
+    public static void main(String[] args) {
+      String [] nombres = {"Jose Daniel", "Maria Engracia", "Jose Ignacio", "Maximiliano"};
+
+      String suma = "";
+      for(String nombre : nombres){
+          suma = suma + nombre;
+          
+      }
+      System.out.println(suma);
+    }
+}
